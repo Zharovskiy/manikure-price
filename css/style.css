@@ -1,39 +1,44 @@
 @import url(../css/reset.css);
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: gray;
-    background-image: url(../images/d1fc51de824b6c286ce318b26f59629a.jpg);
+    background-image: url(../images/blue.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .container {
     margin: 0 auto;
     max-width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .price {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 
 .price-title {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .price-group {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 22px;
 }
 
 .price-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid white;
 }
 
